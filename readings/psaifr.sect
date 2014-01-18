@@ -1,0 +1,153 @@
+<section id="psaifr-reading"><title>An Introduction to psaifr</title>
+
+<para>
+  We consider the basics of using <code>psaifr</code>, a small Racket
+  library for exploring aspects of problem solving, abstract images,
+  and functions.  <code>psaifr</code> is a small experiment to ground
+  a broader research project in math over images (currently planned for
+  summer 2014).
+</para>
+
+<section id="psaifr-introduction"><title>Introduction</title>
+
+</section> <!-- psaifr-introduction -->
+
+<section id="psaifr-example"><title>A Short Example</title>
+
+<programlisting>
+#lang racket
+(require psaifr)
+(define f1 '(+ x y))
+(define f2 '(* x y))
+(define f3 `(sign ,f2))
+(define f1-small (psaifr-greyscale-image (makefun f1) 100 100))
+(define f2-large (psaifr-greyscale-image (makefun f2) 400 400))
+(define f3-wide (psaifr-greyscale-image (makefun f3) 200 100))
+</programlisting>
+
+</section> <!-- psaifr-example -->
+
+<section id="psaifr-reference"><title>Reference</title>
+
+<section id="psaifr-ref-racket"><title>Primary Racket Procedures</title>
+
+</section> <!-- psaifr-ref-racket -->
+
+<section id="psaifr-ref-image"><title>Image Functions</title>
+
+<section id="psaifr-ref-nullary"><title>Nullary (Zero-Parameter) Functions</title>
+
+<variablelist>
+  <varlistentry>
+    <term>A number (<code>-1</code>, <code>1/2</code>, <code>0</code>, 
+      <code>0.56</code>, <code>1</code>, ...)</term>
+    <listitem>
+      An image that is just in that color.
+    </listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term><code>x</code></term>
+    <listitem>
+      An image that ranges from black (-1) at the left to white (1) at 
+      the right.
+    </listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term><code>y</code></term>
+    <listitem>
+      An image that ranges from black (-1) at the top to white (1) at 
+      the bottom.
+    </listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term><code>second</code></term>
+    <listitem>
+      -1 at the start of the current minute; 1 at the end of the current
+      minute.  (Currently recomputed with ...)
+    </listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term><code>mouseX</code> [unimplemented]</term>
+    <listitem>
+      The x coordinate of the mouse (converted to the range [-1 .. 1]).
+    </listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term><code>mouseY</code> [unimplemented]</term>
+    <listitem>
+      The y coordinate of the mouse (converted to the range [-1 .. 1]).
+    </listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term><code>clickX</code> [unimplemented]</term>
+    <listitem>
+      The x coordinate of the last position the mouse was clicked
+      (converted to the range [-1 .. 1]).
+    </listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term><code>clickY</code> [unimplemented]</term>
+    <listitem>
+      The y coordinate of the last position the mouse was clicked
+      (converted to the range [-1 .. 1]).
+    </listitem>
+  </varlistentry>
+
+</variablelist>
+
+</section> <!-- psaifr-ref-nullary -->
+
+<section id="psaifr-ref-unary"><title>Unary Functions</title>
+
+<variablelist>
+  <varlistentry>
+    <term><code>sign</code></term>
+    <listitem>
+      The sign of its input value.  Negative numbers go to -1 (black).
+      Positive numbers go to 1 (white).  Zero says 0 (middle grey).
+    </listitem>
+  </varlistentry>
+</variablelist>
+
+</section> <!-- psaifr-ref-unary -->
+
+<section id="psaifr-ref-binary"><title>Binary Functions</title>
+
+<variablelist>
+  <varlistentry>
+    <term><code>*</code></term>
+    <listitem>
+      The product of its parameters.
+    </listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term><code>add</code></term>
+    <listitem>
+      The sum of its parameters (restricted to [-1 .. 1]).
+    </listitem>
+  </varlistentry>
+
+  <varlistentry>
+    <term><code>rotate</code></term>
+    <listitem>
+      The first parameter rotated by the second parameter (effectively
+      addition that wraps around from 1 to -1 or vice versa).
+    </listitem>
+  </varlistentry>
+</variablelist>
+
+</section> <!-- psaifr-ref-binary -->
+
+</section> <!-- psaifr-ref-image -->
+
+</section> <!-- psaifr-reference -->
+
+</section> <!-- psaifr-reading -->

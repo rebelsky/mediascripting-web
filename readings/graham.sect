@@ -1,0 +1,33 @@
+<section id="graham-reading"><title>Readings by Paul Graham</title>
+
+<para>
+  Read one of Paul Graham's short readings on Lisp.
+</para>
+
+<itemizedlist>
+  <listitem>
+    Graham, Paul (2002).  Revenge of the nerds.  Available online at
+    <code>&lt;<ulink url="http://www.paulgraham.com/icad.html"/>&gt;</code>.
+  </listitem>
+
+  <listitem>
+    Graham, Paul (2002).  What made Lisp different.  Available online at
+    <code>&lt;<ulink url="http://www.paulgraham.com/diff.html"/>&gt;</code>
+  </listitem>
+</itemizedlist>
+
+<para>
+  You may also find it useful to read Graham's longer exploration of
+  Lisp.
+</para>
+
+<itemizedlist>
+  <listitem>
+    Graham, Paul (2001).  The roots of Lisp.  Available online at
+    <code>&lt;<ulink url="http://lib.store.yahoo.net/lib/paulgraham/jmc.ps"/>&gt;</code>.
+    Short introduction available online at
+    <code>&lt;<ulink url="http://www.paulgraham.com/rootsoflisp.html"/>&gt;</code>
+  </listitem>
+</itemizedlist>
+
+</section> <!-- graham-reading -->

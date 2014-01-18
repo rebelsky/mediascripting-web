@@ -1,0 +1,10 @@
+
+<!ENTITY title{$day} "Cascading Style Sheets">
+<!ENTITY abbrev{$day} "css">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+

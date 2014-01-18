@@ -4,16 +4,16 @@
 
 <!ENTITY title{$day} "Version Control with Git">
 <!ENTITY abbrev{$day} "git">
-<!ENTITY reading{$day} "">
+<!ENTITY reading{$day} "<ulink url='../readings/graham.html'>Paul Graham on Lisp</ulink>">
 <!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
 +day
 <!ENTITY due{$day} "HW {$hw}: Getting Started with Git">
 +hw
 
-<!ENTITY title{$day} "Introduction">
-<!ENTITY abbrev{$day} "intro">
-<!ENTITY reading{$day} "">
+<!ENTITY title{$day} "Math with Images: An Introduction to psaifr">
+<!ENTITY abbrev{$day} "psaifr">
+<!ENTITY reading{$day} "<ulink url='../readings/psaifr.html'>An Introduction to psaifr</ulink>">
 <!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
 +day
@@ -47,8 +47,8 @@
 <!ENTITY due{$day} "HW {$hw}">
 +hw
 
-<!ENTITY title{$day} "HTML and Markup Languages">
-<!ENTITY abbrev{$day} "html">
+<!ENTITY title{$day} "Postscript">
+<!ENTITY abbrev{$day} "postscript">
 <!ENTITY reading{$day} "">
 <!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
@@ -56,8 +56,8 @@
 <!ENTITY due{$day} "HW {$hw}">
 +hw
 
-<!ENTITY title{$day} "Cascading Style Sheets">
-<!ENTITY abbrev{$day} "css">
+<!ENTITY title{$day} "HTML and Cascading Style Sheets">
+<!ENTITY abbrev{$day} "html">
 <!ENTITY reading{$day} "">
 <!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">

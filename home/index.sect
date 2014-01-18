@@ -1,7 +1,95 @@
 <section id="front-door"><title>Front Door</title>
 
+<section id="introduction"><title>Introduction</title>
+
 <para>
-  Welcome to the &semester; section of &courseid; - &coursename;.
+  Welcome to the Spring 2014 session of Grinnell College's CSC 195.01, a
+  one-credit special topics course entitled <emphasis>Mediascripting</emphasis>.
+  In this course, we will explore some of the technologies that I hope
+  to use in this summer's research on scripting media applications.
 </para>
+
+<para>
+  I hope that there will be very little lecture in the class.  The focus
+  will be on collaborative exploration of problems and their solutions.
+  Each class, I expect to suggest a problem and an approach and to have
+  the class discuss and experiment with alternatives.  At times, we will
+  solve problems as a whole class.  At other times, you will work in 
+  small groups on laboratory problems.
+</para>
+
+<para>
+  In preparation for most classes, you will do some readings on the Web.
+  At times, I will identify those readings for you.  At other times,
+  you will need to find the appropriate readings (or videos, if you
+  prefer).
+</para>
+
+<para>
+  As a follow up for most classes, I will ask you to do a short assignment
+  that uses the technology we explored in that day's class.
+</para>
+
+<para>
+  The Web site for the course is <code><ulink
+  url="&url;"/></code>.
+  You can find all sorts of interesting things on the course web, and
+  I'd encourage you to look there.
+</para>
+
+<para>
+  This is an experimental course.  Among other things, this means that I
+  expect to be updating the syllabus as the semester goes on.  
+</para>
+
+</section> <!-- introduction -->
+
+<section name="basics"><title>Basics</title>
+
+<para>
+  <emphasis role="strong">Meets</emphasis>: Thursdays, 8:00-8:50 a.m.,
+  Science 3819. 
+</para>
+
+<para>
+  <emphasis role="strong">Instructor</emphasis>: 
+  <ulink url="http://www.cs.grinnell.edu/~rebelsky/">Samuel A. Rebelsky</ulink>,
+  Science 3824.  269-4410 (office).  236-7445 (home).  
+  Office hours:  M 2:15-3:05, TW 11:00-11:45, F 2:15-3:05.
+  I tend to follow an open door policy: Feel free to stop by when my
+  door is open or to make an appointment for another time.  
+</para>
+
+</section>
+
+<section id="grading"><title>Grading</title>
+
+<para>
+  This course is offered for one credit and is graded as
+  S/D/F.  All students who take the course are expected to
+</para>
+
+<itemizedlist>
+  <listitem>attend at least twelve of the fourteen class meetings;</listitem>
+  <listitem>do all of the assigned readings;</listitem>
+  <listitem>spend an appropriate amount of time on each homework 
+    assignment; and</listitem>
+  <listitem>participate actively in class.</listitem>
+</itemizedlist>
+
+<para>
+  Students who meet these criteria will earn a grade of S.  Students who
+  do not will likely earn a lower grade.
+</para>
+
+</section> <!-- grading -->
+
+<section name="textbook" title="Textbooks and Other Readings">
+
+<para>
+  <emphasis>Forthcoming.</emphasis>
+</para>
+
+</section> <!-- textbook -->
 
 </section> <!-- front-door -->

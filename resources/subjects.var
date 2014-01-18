@@ -1,14 +1,126 @@
-+week
-<!ENTITY week{$week} "Getting Started">
-
 +day
-<!ENTITY title{$day} "An Introduction to the Course">
-<!ENTITY abbrev{$day} "course-intro">
+<!ENTITY due{$day} "HW 00: Set up a GitHub account">
++hw
 
+<!ENTITY title{$day} "Version Control with Git">
+<!ENTITY abbrev{$day} "git">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
 +day
-<!ENTITY title{$day} "Introduction, continued">
-<!ENTITY abbrev{$day} "intro-continued">
+<!ENTITY due{$day} "HW {$hw}: Getting Started with Git">
++hw
 
+<!ENTITY title{$day} "Introduction">
+<!ENTITY abbrev{$day} "intro">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
 +day
-<!ENTITY title{$day} "Real Work">
-<!ENTITY abbrev{$day} "real-work">
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Processing (1)">
+<!ENTITY abbrev{$day} "processing-1">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Processing (2)">
+<!ENTITY abbrev{$day} "processing-2">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Advanced Git">
+<!ENTITY abbrev{$day} "git-lab">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "HTML and Markup Languages">
+<!ENTITY abbrev{$day} "html">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Cascading Style Sheets">
+<!ENTITY abbrev{$day} "css">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Images as Markup: Exploring SVG">
+<!ENTITY abbrev{$day} "svg">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Javascript (1)">
+<!ENTITY abbrev{$day} "javascript-1">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Javascript (2)">
+<!ENTITY abbrev{$day} "javascript-2">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "The Document Object Model">
+<!ENTITY abbrev{$day} "dom">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Drawing with a Canvas">
+<!ENTITY abbrev{$day} "canvas">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Server-Side Javascript">
+<!ENTITY abbrev{$day} "server-side-javascript">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
++day
+<!ENTITY due{$day} "HW {$hw}">
++hw
+
+<!ENTITY title{$day} "Wrapup">
+<!ENTITY abbrev{$day} "wrapup">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">

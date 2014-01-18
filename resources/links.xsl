@@ -18,9 +18,9 @@
   [<a href="../handouts/academic-honesty.html">Academic Honesty</a>]
   [<a href="../handouts/disabilities.html">Disabilities</a>]
   [<a href="../handouts/email.html">Email</a>]
-  [<a href="../handouts/faq.html">FAQ</a>]
-  [<a href="../handouts/irc.html">IRC</a>]
   [<a href="../handouts/teaching.html">Teaching &amp; Learning</a>]
+  -
+  [<a href="http://bit.ly/cs195gcal">Calendar</a>]
 </p>
 <p class="links"><b>Current:</b>
   [<a href="../outlines/current.html">Outline</a>] 
@@ -41,6 +41,7 @@
 <p class="links"> <b>Reference:</b> 
 </p>
 <p class="links"><b>Related Courses:</b>
+  [<a href="http://www.cs.grinnell.edu/~rebelsky/CSC195/2013S/">2013S</a>]
 </p>
 <p class="links"> <b>Misc:</b> 
   [<a href="http://www.cs.grinnell.edu/~rebelsky/">SamR</a>]
